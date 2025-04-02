@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function dis()
+		{
+	var col=document.getElementById("colors").value;
+	window.document.bgColor=col;
+		}
+	</script>
+</head>
+<body>
+	select Month:
+		<select id="colors">
+			<option>Red</option>
+			<option>Green</option>
+			<option>Blue</option>
+			<option>Yellow</option>
+			<option>Orange</option>			
+		</select>
+		<input type="button" onclick="dis()" value="clickme">
+		
+</body>
+</html>
