@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function show()
+		{
+			var te=document.getElementById("t1").value;
+			var fs=document.getElementById("n1").value;
+			var cbg=document.getElementById("c1").value;
+			var cfg=document.getElementById("c2").value;
+		document.getElementById("res").innerHTML=te;
+		document.getElementById("res").style.backgroundColor=cbg;
+		document.getElementById("res").style.color=cfg;
+		document.getElementById("res").style.fontSize=fs+"px";
+
+		}
+	</script>
+</head>
+<body>
+
+	<input type="text" id="t1" placeholder="Enter Text">
+	<br>
+	<input type="number" id="n1" placeholder="font size">
+	<br>
+	Select bg Color<input type="color" id="c1">
+	<br>
+	Select fg Color<input type="color" id="c2">
+	<br>
+	<input type="button" onclick="show()" value="clickme">
+	<br>
+	<h1 id="res"></h1>
+</body>
+</html>
