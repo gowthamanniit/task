@@ -1,0 +1,8 @@
+var text=document.getElementById("t1").value;
+			var re1=/[A-Z]/g
+      
+      
+      alert(text.match(re1));
+			var r=text.match(re1)
+			alert(typeof(r));
+			alert(Array.isArray(r));
